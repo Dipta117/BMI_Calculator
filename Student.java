@@ -1,11 +1,11 @@
-public class student
+public class Student
 {
      private String name;
      private int roll;
 
 
 
-public student(String name, int roll)
+public Student(String name, int roll)
 {
     this.name=name;
     this.roll=roll;
@@ -33,7 +33,7 @@ public void setroll(int roll)
 
 public static void main(String[] args)
 {
-    student std=new student("Rahim",38);
+    Student std=new Student("Rahim",38);
     System.out.println(std.getname());
     System.out.println(std.getroll());
 
