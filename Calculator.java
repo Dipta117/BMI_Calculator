@@ -1,18 +1,18 @@
 public class Calculator
 {
-    public double addition(double a , double b)
+    public double add(double a , double b)
     {
         return a+b;
     }
-    public double subtraction(double a , double b)
+    public double subtract(double a , double b)
     {
         return a-b;
     }
-    public double multiplication(double a , double b)
+    public double multiply(double a , double b)
     {
         return a*b;
     }
-    public double division(double a , double b)
+    public double divide(double a , double b)
     {
         if(b!=0)
         return a/b;
@@ -27,10 +27,10 @@ public class Calculator
 public static void main(String[] args)
 {
     Calculator calc = new Calculator();
-    System.out.println(calc.addition(2,3));
-    System.out.println(calc.subtraction(2,3));
-    System.out.println(calc.multiplication(2,3));
-    System.out.println(calc.dividision(2,3));
-
+    System.out.println(calc.add(2,3));
+    System.out.println(calc.subtract(2,3));
+    System.out.println(calc.multiply(2,3));
+    System.out.println(calc.divide(2,3));
+    
 }
 }
